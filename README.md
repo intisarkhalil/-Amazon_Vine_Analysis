@@ -14,45 +14,16 @@ The purpose of this analysis is to use PySpark to perform the ETL process to ext
 3. In pgAdmin, run a new query to create the tables for the new database.
 4. After running the query, we have the following four tables database:
    - Customer table ```customers_table```, 
-   
-   ![image](https://user-images.githubusercontent.com/62036983/148662572-91817959-371d-4161-ac62-0f2f8b0dd614.png)
-
    - Products table ```products_table```,
-   
-   ![image](https://user-images.githubusercontent.com/62036983/148662592-7379c209-2df7-40ae-8a48-32b27912b06c.png)
-
    - Review table ``` review_id_table```,
-   
-   ![image](https://user-images.githubusercontent.com/62036983/148662600-9e970a78-acf2-458e-8f25-a0041b3b775e.png)
-
    - Vine table ```vine_table```.
-   
-   ![image](https://user-images.githubusercontent.com/62036983/148662604-9e3fa9c0-47ab-472f-8718-d9e193b18c42.png)
-
 #### Determine Bias of Vine Reviews: The analysis does the following:
 1. DataFrame or table for the ```vine_table``` data using ```PySpark```.
-
-![image](https://user-images.githubusercontent.com/62036983/148662887-d349375d-2513-4c6d-b074-0804bdfeed2b.png)
-
 2. The data is filtered to create a DataFrame or table wherere there are 20 or more total votes.
-
-![image](https://user-images.githubusercontent.com/62036983/148662907-f3d5be91-fc40-4a87-9301-9ba8ab3cd96b.png)
-
 3. The data is filtered to create a DataFrame or table where the percentage of ```helpful_votes``` is equal to or greater than 50% 
-
-![image](https://user-images.githubusercontent.com/62036983/148662913-609913fb-c330-412e-9e96-9854ab7857a5.png)
-
 4. The data is filtered to create a DataFrame or table where there is a Vine review.
-
-![image](https://user-images.githubusercontent.com/62036983/148662921-70f5236f-10e2-45a3-bfcd-53e4d666fcc8.png)
-
 5. The data is filtered to create a DataFrame or table where there isn’t a Vine review.
-
-![image](https://user-images.githubusercontent.com/62036983/148662934-263aa8b8-b0ed-4e64-bf61-78b78a72da44.png)
-
 6. The total number of reviews, the number of 5-star reviews, and the percentage 5-star reviews are calculated for all Vine and non-Vine reviews 
- 
-![image](https://user-images.githubusercontent.com/62036983/148662948-eecdda26-2340-4b3b-ae67-42cb2048bee6.png)
 
 ## Results: Using bulleted lists and images of DataFrames as support, address the following questions:
 

@@ -29,27 +29,29 @@ The purpose of this analysis is to use PySpark to perform the ETL process to ext
 
 1.	How many Vine reviews and non-Vine reviews were there?
 ```
-The number of vine reviews is Zero
+The number of vine reviews is 0
 The number of non-vine reviews is 129508
 ```
-2.	How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+2.	How many Vine reviews were 5-stars? How many non-Vine reviews were 5-stars?
 ```
-The number of vine reviews were 5 stars is zero while, 
+The number of vine reviews were 5-stars is zero while, 
 The non-vine reviews were 5 stars is 59271
 ```
 3.	What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 ```
-The percentage of vine reviews were 5 stars is %0.00, 
-Wthe hile percentage of non-fine reviews were 5 stars is %45.766.
+The percentage of vine reviews were 5 stars is 0.00%, 
+Wthe hile percentage of non-fine reviews were 5 stars is 45.766%.
 ```
 ## Summary: 
 ```
-•	Vine (paid) Reviews
+- Paid Reviews
 0 total reviews
-0 were 5 star reviews
+0 were 5-star reviews
 0.0% of vine (paid) reviews were 5 star
-•	Unpaid Reviews
+- Unpaid Reviews
 129508 total reviews
+59271 were 5-star reviews
+45.766 %of unpaid reviews were 5-star reviews
 ```
 The results  show that there are 129508 reviews in the non-vine program 59271 of them were 5-star, while there isn't reviews in the Vine program, which indicates a positive bias for reviews in the vine program. Mobile Apps Reviews may have fewer reviews per product title so data combining Mobile Apps Reviews  may offer different results for number of review and participants in the Amazon Vine Program.
 
